@@ -30,3 +30,7 @@ figcaption {
   color: white;
   padding: 1rem;
 }
+/* reduces top margin on h2 and bottom margin on p and leave a 0.5 rem gap b/w the two*/
+figcaption * {
+  margin: 0.5rem;
+}
