@@ -13,32 +13,14 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  font-size: 1.5rem;
+  background: linear-gradient(
+    353deg,
+    rgba(148, 210, 189, 1) 40%,
+    rgba(61, 147, 151, 1) 100%
+  );
 }
-/* turn off bullets, push the box down the page, set a border plus width and height for demo purpose */
-ul {
-  padding: 0;
-  list-style-type: none;
-  margin: 5rem auto;
-  border: 10px dotted #9b2226;
 
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: space-evenly;
-}
-/* set border background to see each li*/
-li {
-  border: 2px solid #001219;
-  background-color: #ee9800;
-  height: 100px;
-  order: 1;
-  width: 30%;
-  flex-grow: 2;
-}
-/* Note : never use width inside of flexbox. Flex basis has to do with how wide is the box sort of?*/
-.flex2 {
-  order: 2;
-  flex-basis: 25%;
+figure {
+  margin: 0;
+  padding: 0;
 }
