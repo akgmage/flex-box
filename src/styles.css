@@ -21,8 +21,7 @@ ul {
   list-style-type: none;
   margin: 5rem auto;
   border: 10px dotted #9b2226;
-  width: 900px;
-  height: 500px;
+
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -33,11 +32,13 @@ ul {
 li {
   border: 2px solid #001219;
   background-color: #ee9800;
-  min-width: 100px;
   height: 100px;
   order: 1;
+  width: 30%;
+  flex-grow: 2;
 }
 /* Note : never use width inside of flexbox. Flex basis has to do with how wide is the box sort of?*/
 .flex2 {
   order: 2;
+  flex-basis: 25%;
 }
