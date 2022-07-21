@@ -34,3 +34,15 @@ figcaption {
 figcaption * {
   margin: 0.5rem;
 }
+.one {
+  background-color: #9b2226;
+}
+.two {
+  background-color: #bb3e03;
+}
+.three {
+  background-color: #ee9b00;
+}
+.four {
+  background-color: #005f73;
+}
