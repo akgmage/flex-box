@@ -35,4 +35,9 @@ li {
   background-color: #ee9800;
   min-width: 100px;
   height: 100px;
+  order: 1;
+}
+/* Note : never use width inside of flexbox. Flex basis has to do with how wide is the box sort of?*/
+.flex2 {
+  order: 2;
 }
