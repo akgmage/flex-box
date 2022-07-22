@@ -57,10 +57,14 @@ figure > div {
   flex-flow: row wrap;
   justify-content: space-between;
   gap: 4%;
+  margin-bottom: 1rem;
 }
 figure {
   flex-basis: 22%;
 }
 .span2 {
   flex-basis: 48%;
+}
+.span3 {
+  flex-basis: 74%;
 }
