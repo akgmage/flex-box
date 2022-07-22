@@ -58,3 +58,6 @@ figure > div {
   justify-content: space-between;
   gap: 4%;
 }
+figure {
+  flex-basis: 22%;
+}
