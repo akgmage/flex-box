@@ -59,7 +59,8 @@ figure > div {
     gap: 4%;
     margin-bottom: 1rem;
   }
-  figure {
+  figure,
+  .span2 {
     flex-basis: 48%;
   }
 }
