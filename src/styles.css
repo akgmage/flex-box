@@ -61,3 +61,6 @@ figure > div {
 figure {
   flex-basis: 22%;
 }
+.span2 {
+  flex-basis: 48%;
+}
