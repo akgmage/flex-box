@@ -59,6 +59,9 @@ figure > div {
     gap: 4%;
     margin-bottom: 1rem;
   }
+  figure {
+    flex-basis: 48%;
+  }
 }
 @media (min-width: 800px) {
   figure {
