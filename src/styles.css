@@ -63,6 +63,12 @@ figure > div {
   .span2 {
     flex-basis: 48%;
   }
+  .span3 {
+    flex-basis: 100%;
+  }
+  .span3-1 {
+    flex-basis: 100%;
+  }
 }
 @media (min-width: 800px) {
   figure {
