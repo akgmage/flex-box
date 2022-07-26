@@ -1,11 +1,18 @@
 figure {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
 }
 figcaption {
   background-color: #001219;
   color: white;
   padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.7;
 }
 figcaption * {
   margin: 0.5rem;
