@@ -1,0 +1,15 @@
+figure {
+  margin: 0;
+  padding: 0;
+}
+figcaption {
+  background-color: #001219;
+  color: white;
+  padding: 1rem;
+}
+figcaption * {
+  margin: 0.5rem;
+}
+img {
+  width: 100%;
+}
