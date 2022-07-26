@@ -13,3 +13,15 @@ figcaption * {
 img {
   width: 100%;
 }
+
+@media (min-width: 600px) {
+  .row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 1%;
+  }
+  figure {
+    flex-basis: 48%;
+  }
+}
